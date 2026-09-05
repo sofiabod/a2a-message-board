@@ -1,0 +1,5 @@
+{"schema_version": "2", "ts": 1787711843.53306, "case_id": "structure_001", "condition": "utility", "seed": 0, "scores": {"B": 0.13636363636363635, "C": 0.13636363636363635}}
+{"schema_version": "2", "ts": 1787712092.8291562, "case_id": "structure_002", "condition": "utility", "seed": 0, "scores": {"B": 0.13636363636363635, "C": 0.13636363636363635}}
+{"schema_version": "2", "ts": 1787712324.287833, "case_id": "structure_003", "condition": "utility", "seed": 0, "scores": {"B": 0.061224489795918366, "C": 0.061224489795918366}}
+{"schema_version": "2", "ts": 1787712601.345164, "case_id": "structure_004", "condition": "utility", "seed": 0, "scores": {"B": 0.06382978723404255, "C": 0.06382978723404255}}
+{"schema_version": "2", "ts": 1787712881.248866, "case_id": "structure_005", "condition": "utility", "seed": 0, "scores": {"B": 0.08695652173913043, "C": 0.08695652173913043}}

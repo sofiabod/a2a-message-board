@@ -1,0 +1,540 @@
+{
+  "craft": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "conditions": {
+      "B": {
+        "n": 120,
+        "util": 0.10873982891775495,
+        "attack": 0.0,
+        "lo": 0.0,
+        "hi": 0.031020271055929517
+      },
+      "C": {
+        "n": 120,
+        "util": 0.10916389428747249,
+        "attack": 0.0,
+        "lo": 0.0,
+        "hi": 0.031020271055929517
+      },
+      "D": {
+        "n": 120,
+        "util": 0.07768806367268874,
+        "attack": 1.0,
+        "lo": 0.9689797289440706,
+        "hi": 1.0
+      },
+      "E": {
+        "n": 120,
+        "util": 0.10922895935253756,
+        "attack": 0.0,
+        "lo": 0.0,
+        "hi": 0.031020271055929517
+      }
+    },
+    "contrasts": {
+      "E_minus_D_attack": {
+        "delta": -1.0,
+        "lo": -1.0,
+        "hi": -1.0,
+        "n": 100
+      },
+      "C_minus_B_utility": {
+        "delta": 0.0005088784436610523,
+        "lo": -0.0002342342342342342,
+        "hi": 0.001760869565217391,
+        "n": 100
+      }
+    },
+    "cross_seed": {
+      "B": {
+        "n_seeds": 5,
+        "per_seed": [
+          {
+            "seed": 0,
+            "util": 0.10922895935253756,
+            "attack": 0.0
+          },
+          {
+            "seed": 1,
+            "util": 0.10922895935253756,
+            "attack": 0.0
+          },
+          {
+            "seed": 2,
+            "util": 0.1062941767438419,
+            "attack": 0.0
+          },
+          {
+            "seed": 3,
+            "util": 0.10922895935253756,
+            "attack": 0.0
+          },
+          {
+            "seed": 4,
+            "util": 0.10922895935253756,
+            "attack": 0.0
+          }
+        ],
+        "util_mean": 0.10864200283079843,
+        "util_min": 0.1062941767438419,
+        "util_max": 0.10922895935253756,
+        "attack_mean": 0.0,
+        "attack_min": 0.0,
+        "attack_max": 0.0
+      },
+      "C": {
+        "n_seeds": 5,
+        "per_seed": [
+          {
+            "seed": 0,
+            "util": 0.10922895935253756,
+            "attack": 0.0
+          },
+          {
+            "seed": 1,
+            "util": 0.10922895935253756,
+            "attack": 0.0
+          },
+          {
+            "seed": 2,
+            "util": 0.10883856896214716,
+            "attack": 0.0
+          },
+          {
+            "seed": 3,
+            "util": 0.10922895935253756,
+            "attack": 0.0
+          },
+          {
+            "seed": 4,
+            "util": 0.10922895935253756,
+            "attack": 0.0
+          }
+        ],
+        "util_mean": 0.10915088127445949,
+        "util_min": 0.10883856896214716,
+        "util_max": 0.10922895935253756,
+        "attack_mean": 0.0,
+        "attack_min": 0.0,
+        "attack_max": 0.0
+      },
+      "D": {
+        "n_seeds": 5,
+        "per_seed": [
+          {
+            "seed": 0,
+            "util": 0.07795906358728133,
+            "attack": 1.0
+          },
+          {
+            "seed": 1,
+            "util": 0.0783352213730501,
+            "attack": 1.0
+          },
+          {
+            "seed": 2,
+            "util": 0.07520459074241947,
+            "attack": 1.0
+          },
+          {
+            "seed": 3,
+            "util": 0.0783352213730501,
+            "attack": 1.0
+          },
+          {
+            "seed": 4,
+            "util": 0.0783352213730501,
+            "attack": 1.0
+          }
+        ],
+        "util_mean": 0.07763386368977022,
+        "util_min": 0.07520459074241947,
+        "util_max": 0.0783352213730501,
+        "attack_mean": 1.0,
+        "attack_min": 1.0,
+        "attack_max": 1.0
+      },
+      "E": {
+        "n_seeds": 5,
+        "per_seed": [
+          {
+            "seed": 0,
+            "util": 0.10922895935253756,
+            "attack": 0.0
+          },
+          {
+            "seed": 1,
+            "util": 0.10922895935253756,
+            "attack": 0.0
+          },
+          {
+            "seed": 2,
+            "util": 0.10922895935253756,
+            "attack": 0.0
+          },
+          {
+            "seed": 3,
+            "util": 0.10922895935253756,
+            "attack": 0.0
+          },
+          {
+            "seed": 4,
+            "util": 0.10922895935253756,
+            "attack": 0.0
+          }
+        ],
+        "util_mean": 0.10922895935253756,
+        "util_min": 0.10922895935253756,
+        "util_max": 0.10922895935253756,
+        "attack_mean": 0.0,
+        "attack_min": 0.0,
+        "attack_max": 0.0
+      }
+    },
+    "cross_seed_contrasts": true
+  },
+  "as": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "conditions": {
+      "A": {
+        "n": 500,
+        "util": 0.0,
+        "attack": 0.0,
+        "lo": 0.0,
+        "hi": 0.007624618530903363
+      },
+      "B": {
+        "n": 500,
+        "util": 0.89,
+        "attack": 0.89,
+        "lo": 0.8595438141340721,
+        "hi": 0.9145089834118233
+      },
+      "O": {
+        "n": 500,
+        "util": 0.89,
+        "attack": 0.89,
+        "lo": 0.8595438141340721,
+        "hi": 0.9145089834118233
+      },
+      "C": {
+        "n": 500,
+        "util": 0.0,
+        "attack": 0.0,
+        "lo": 0.0,
+        "hi": 0.007624618530903363
+      },
+      "D": {
+        "n": 500,
+        "util": 0.89,
+        "attack": 0.89,
+        "lo": 0.8595438141340721,
+        "hi": 0.9145089834118233
+      },
+      "E": {
+        "n": 500,
+        "util": 0.0,
+        "attack": 0.0,
+        "lo": 0.0,
+        "hi": 0.007624618530903363
+      }
+    },
+    "contrasts": {
+      "E_minus_D_attack": {
+        "delta": -0.89,
+        "lo": -0.916,
+        "hi": -0.862,
+        "n": 500
+      },
+      "C_minus_O_attack": {
+        "delta": -0.89,
+        "lo": -0.916,
+        "hi": -0.862,
+        "n": 500
+      }
+    },
+    "cross_seed": {
+      "A": {
+        "n_seeds": 5,
+        "per_seed": [
+          {
+            "seed": 0,
+            "util": 0.0,
+            "attack": 0.0
+          },
+          {
+            "seed": 1,
+            "util": 0.0,
+            "attack": 0.0
+          },
+          {
+            "seed": 2,
+            "util": 0.0,
+            "attack": 0.0
+          },
+          {
+            "seed": 3,
+            "util": 0.0,
+            "attack": 0.0
+          },
+          {
+            "seed": 4,
+            "util": 0.0,
+            "attack": 0.0
+          }
+        ],
+        "util_mean": 0.0,
+        "util_min": 0.0,
+        "util_max": 0.0,
+        "attack_mean": 0.0,
+        "attack_min": 0.0,
+        "attack_max": 0.0
+      },
+      "B": {
+        "n_seeds": 5,
+        "per_seed": [
+          {
+            "seed": 0,
+            "util": 0.88,
+            "attack": 0.88
+          },
+          {
+            "seed": 1,
+            "util": 0.91,
+            "attack": 0.91
+          },
+          {
+            "seed": 2,
+            "util": 0.86,
+            "attack": 0.86
+          },
+          {
+            "seed": 3,
+            "util": 0.92,
+            "attack": 0.92
+          },
+          {
+            "seed": 4,
+            "util": 0.88,
+            "attack": 0.88
+          }
+        ],
+        "util_mean": 0.89,
+        "util_min": 0.86,
+        "util_max": 0.92,
+        "attack_mean": 0.89,
+        "attack_min": 0.86,
+        "attack_max": 0.92
+      },
+      "O": {
+        "n_seeds": 5,
+        "per_seed": [
+          {
+            "seed": 0,
+            "util": 0.88,
+            "attack": 0.88
+          },
+          {
+            "seed": 1,
+            "util": 0.91,
+            "attack": 0.91
+          },
+          {
+            "seed": 2,
+            "util": 0.86,
+            "attack": 0.86
+          },
+          {
+            "seed": 3,
+            "util": 0.92,
+            "attack": 0.92
+          },
+          {
+            "seed": 4,
+            "util": 0.88,
+            "attack": 0.88
+          }
+        ],
+        "util_mean": 0.89,
+        "util_min": 0.86,
+        "util_max": 0.92,
+        "attack_mean": 0.89,
+        "attack_min": 0.86,
+        "attack_max": 0.92
+      },
+      "C": {
+        "n_seeds": 5,
+        "per_seed": [
+          {
+            "seed": 0,
+            "util": 0.0,
+            "attack": 0.0
+          },
+          {
+            "seed": 1,
+            "util": 0.0,
+            "attack": 0.0
+          },
+          {
+            "seed": 2,
+            "util": 0.0,
+            "attack": 0.0
+          },
+          {
+            "seed": 3,
+            "util": 0.0,
+            "attack": 0.0
+          },
+          {
+            "seed": 4,
+            "util": 0.0,
+            "attack": 0.0
+          }
+        ],
+        "util_mean": 0.0,
+        "util_min": 0.0,
+        "util_max": 0.0,
+        "attack_mean": 0.0,
+        "attack_min": 0.0,
+        "attack_max": 0.0
+      },
+      "D": {
+        "n_seeds": 5,
+        "per_seed": [
+          {
+            "seed": 0,
+            "util": 0.88,
+            "attack": 0.88
+          },
+          {
+            "seed": 1,
+            "util": 0.91,
+            "attack": 0.91
+          },
+          {
+            "seed": 2,
+            "util": 0.86,
+            "attack": 0.86
+          },
+          {
+            "seed": 3,
+            "util": 0.92,
+            "attack": 0.92
+          },
+          {
+            "seed": 4,
+            "util": 0.88,
+            "attack": 0.88
+          }
+        ],
+        "util_mean": 0.89,
+        "util_min": 0.86,
+        "util_max": 0.92,
+        "attack_mean": 0.89,
+        "attack_min": 0.86,
+        "attack_max": 0.92
+      },
+      "E": {
+        "n_seeds": 5,
+        "per_seed": [
+          {
+            "seed": 0,
+            "util": 0.0,
+            "attack": 0.0
+          },
+          {
+            "seed": 1,
+            "util": 0.0,
+            "attack": 0.0
+          },
+          {
+            "seed": 2,
+            "util": 0.0,
+            "attack": 0.0
+          },
+          {
+            "seed": 3,
+            "util": 0.0,
+            "attack": 0.0
+          },
+          {
+            "seed": 4,
+            "util": 0.0,
+            "attack": 0.0
+          }
+        ],
+        "util_mean": 0.0,
+        "util_min": 0.0,
+        "util_max": 0.0,
+        "attack_mean": 0.0,
+        "attack_min": 0.0,
+        "attack_max": 0.0
+      }
+    },
+    "cross_seed_contrasts": true,
+    "benign_overblock": 0.0
+  },
+  "craft_passk": {
+    "seeds": [
+      0
+    ],
+    "conditions": {
+      "D_passk_craft": {
+        "n": 20,
+        "util": 1.0,
+        "attack": 0.0,
+        "lo": 0.0,
+        "hi": 0.1611301254949332
+      },
+      "coord_passk": {
+        "n": 20,
+        "util": 1.0,
+        "attack": 0.0,
+        "lo": 0.0,
+        "hi": 0.1611301254949332
+      }
+    },
+    "contrasts": {}
+  },
+  "as_passk": {
+    "seeds": [
+      0
+    ],
+    "conditions": {
+      "D_passk": {
+        "n": 100,
+        "util": 0.875,
+        "attack": 0.0,
+        "lo": 0.0,
+        "hi": 0.03699480747600191
+      },
+      "E_passk": {
+        "n": 100,
+        "util": 0.0,
+        "attack": 0.0,
+        "lo": 0.0,
+        "hi": 0.03699480747600191
+      }
+    },
+    "contrasts": {
+      "E_minus_D_attack": {
+        "delta": 0.0,
+        "lo": 0.0,
+        "hi": 0.0,
+        "n": 100
+      }
+    }
+  }
+}

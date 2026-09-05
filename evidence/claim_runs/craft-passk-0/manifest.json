@@ -1,0 +1,26 @@
+{
+  "budgets": {
+    "k": 5
+  },
+  "commit": "05b7b4b1bb13e9b20c463a163291d9f9447fe925",
+  "condition_set": [
+    "D_passk_craft",
+    "coord_passk"
+  ],
+  "dataset_hash": "0b32f8a1467df75c09d6c374286db00566da6914758cfbab30ec1b5b27593872",
+  "dirty": false,
+  "model_id": "openai/gpt-5.6-sol",
+  "n_tasks": 5,
+  "policies": {
+    "utility_margin": 0.0
+  },
+  "prompts": {
+    "director": "01b36bb3b7f0415cf17fa1383b3804d0124b721052a1161631f2defe0b8d5688"
+  },
+  "schema_version": "2",
+  "seed": 0,
+  "seeds": [
+    0
+  ],
+  "source_tree_hash": "68eb7062312b0357c7dac729a9ec8e6c50a11f5fc6bb4ff4c0125af6c2b33dfa"
+}

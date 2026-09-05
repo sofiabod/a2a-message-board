@@ -1,0 +1,1 @@
+{"report": {"benchmark": "as", "raw": {"security": 0.88}, "governed": {"security": 0.0}, "guardrail_delta": {"metric": "attack_success_B_minus_C", "value": 0.88, "ci95": [0.81, 0.94]}, "benign_overblock": 0.0, "evidence": "evidence/claim_runs/a2a-n100", "model_id": "openai/gpt-5.6-sol"}, "status": "passed", "returncode": 0}

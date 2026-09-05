@@ -1,0 +1,41 @@
+{
+  "budgets": {
+    "steps": 1
+  },
+  "commit": "b892221ab50935904e2b7643fd461bda4a50b146",
+  "condition_set": [
+    "A",
+    "B",
+    "O",
+    "C",
+    "D",
+    "E"
+  ],
+  "dataset_hash": "84f9d83137996882310be788dbdd6834bd0c75752180262eb89f21c60a37d600",
+  "dirty": false,
+  "model_id": "openai/gpt-5.6-sol",
+  "policies": {
+    "channels": {
+      "A": "isolated",
+      "B": "raw",
+      "C": "governed",
+      "D": "raw",
+      "E": "governed",
+      "O": "observe"
+    },
+    "verify_conditions": [
+      "C",
+      "E"
+    ]
+  },
+  "prompts": {
+    "selector_system": "1c2c76f4fcc401c0e209f4f7084cba964be40d4218d6c201688d5cf81b086601"
+  },
+  "schema_version": "2",
+  "seed": 2,
+  "seeds": [
+    2
+  ],
+  "selector": "real",
+  "source_tree_hash": "37c2ad07bf38bf752fabc3a0639f9f1d01b81d9ba2cefd2e281f7527f020f681"
+}
