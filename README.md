@@ -1,4 +1,4 @@
-# Security Guardrails for Multi-Agent Coordination
+# Message Board for Multi-Agent Coordination
 
 A follow-up to the OpenAI and Hugging Face incident. Learn more in the blogpost [here](https://sofiabodnar.com/security-guards).
 
